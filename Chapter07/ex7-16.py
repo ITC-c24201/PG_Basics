@@ -1,14 +1,7 @@
-list1 = [1,2,3,4]
+for i in range(1,3):
 
-list2 = [5,6,7,8]
+    print(i)
 
-added = []
+    for letter in ["a","b","c"]:
 
-for i in list1:
-
-    for j in list2:
-
-        added.append(i + j)
-
-
-print(added)
+        print(letter)

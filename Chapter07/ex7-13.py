@@ -1,7 +1,18 @@
-for i in range(1,6):
+qs = ["What is your name?",
+      "What is your fav. color?",
+      "What is your quest?"]
 
-    if i == 3:
+n = 0
 
-        continue
 
-    print(i)
+while True:
+
+    print("Type q to quit")
+
+    a = input(qs[n])
+
+    if a == "q":
+
+        break
+
+    n = (n + 1) % 3

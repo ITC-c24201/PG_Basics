@@ -1,7 +1,13 @@
-for i in range(1,3):
+i = 1
+
+while i <= 5:
+
+    if i == 3:
+
+        i += 1
+
+        continue
 
     print(i)
 
-    for letter in ["a","b","c"]:
-
-        print(letter)
+    i += 1

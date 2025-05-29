@@ -1,3 +1,22 @@
-for i in range(1,11):
+tv = ["GOT","Narcos","Vice"]
 
-    print(i)
+coms = ["Arrested Development","friends","Always Sunny"]
+
+all_shows = []
+
+
+for show in tv:
+
+    show = show.upper()
+
+    all_shows.append(show)
+
+
+for show in coms:
+
+    show = show.upper()
+
+    all_shows.append(show)
+
+
+print(all_shows)

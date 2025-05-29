@@ -1,3 +1,2 @@
-for i in range(0,100):
-
-    print(i)
+while True:
+    print("Hello, World!")

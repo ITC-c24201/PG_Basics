@@ -1,9 +1,3 @@
-x = 10
+for i in range(1,11):
 
-while x > 0:
-
-    print('{}'.format(x))
-
-    x -= 1
-
-print("Happy New Year!")
+    print(i)

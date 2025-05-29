@@ -1,22 +1,12 @@
 tv = ["GOT","Narcos","Vice"]
 
-coms = ["Arrested Development","friends","Always Sunny"]
+for i, new in enumerate(tv):
 
-all_shows = []
+    new = tv[i]
 
+    new = new.upper()
 
-for show in tv:
-
-    show = show.upper()
-
-    all_shows.append(show)
+    tv[i] = new
 
 
-for show in coms:
-
-    show = show.upper()
-
-    all_shows.append(show)
-
-
-print(all_shows)
+print(tv)
